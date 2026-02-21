@@ -1,9 +1,10 @@
-Simple online Notes: 
-- Add a title and accesss the note. 
-- press ctrl + s or save to save the note. 
+Simple online Notes:
 
-todo: 
-- add encryption such that: 
- - Every note is encrypted with AES-256, using the title as the encryption key. Then use SHA-256 hash of the title to index the encrypted note in a database.
-- display the warning :) 
-- limit the note by [size, ip, etc]
+TODO: Implement 
+[x] titile access    
+[x] password access
+
+[] limit the note text size ( < 200kb)
+[] dynamic text box size
+[] blur notes / title 
+[] implement to search using the /notes/title 

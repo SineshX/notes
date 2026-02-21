@@ -1,2 +1,4 @@
 *.txt
-firebase-config.js
+*.py
+main.dev.js
+styles.css
