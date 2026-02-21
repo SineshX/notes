@@ -1,0 +1,7 @@
+include:
+  - "_0xcore.js"
+  - "_0xfb.js"
+  - "_0xlib.js"
+  - "_0xst.css"
+  - "_0xsys.js"
+  - "_0xutil.js"
