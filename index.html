@@ -1,33 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./favicon.svg" />
-    <title>Open Notepad</title>
-    
-</head>
-<body>
-    <main>
-        <div class="container">
-            <h1>Open Notepad</h1>
-            <input type="text" id="title" placeholder="Enter title">
-            <button id="access-note">Access Note</button>
-            <div class="note-editor">
-                <textarea id="note-textarea" placeholder="Enter your note"></textarea>
-                <button id="save-note">Save Note</button>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="./favicon.svg" />
+        <title>Online Notepad</title>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <h1>Online Notepad</h1>
+                <input type="text" id="title" placeholder="Enter title" />
+                <input
+                    type="password"
+                    id="pwd"
+                    placeholder="Password (Optional)"
+                />
+                <button id="access-note">Access Note</button>
+                <div class="note-editor">
+                    <textarea
+                        id="note-textarea"
+                        placeholder="Enter your note"
+                    ></textarea>
+                    <button id="save-note">Save Note</button>
+                </div>
+                <div class="existing-note"></div>
             </div>
-            <div class="existing-note"></div>
-        </div>
-    </main>
-    <!-- Include the CryptoJS library for AES encryption and decryption -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
-    <!-- firenbase libs -->
-    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
-    <script src="firebase-config.js"></script>
-    <script src="main.js"></script>
-    
-</body>
+        </main>
+        <!-- Include the CryptoJS library for AES encryption and decryption -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+        <!-- firenbase libs -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-firestore.js"></script>
+        <script src="firebase-config.js"></script>
+        <script src="main.js"></script>
+    </body>
 </html>

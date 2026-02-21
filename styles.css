@@ -1,7 +1,9 @@
 /* styles.css */
 
 /* Reset default margin and padding */
-body, h1, p {
+body,
+h1,
+p {
     margin: 0;
     padding: 0;
 }
@@ -27,7 +29,8 @@ h1 {
     color: #333;
 }
 
-#title {
+#title,
+#pwd {
     width: auto;
     padding: 10px;
     border: 1px solid #ccc;
